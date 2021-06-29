@@ -4,7 +4,7 @@ permalink: "/about/"
 layout: page
 ---
 
-Hey there!
+Hey there! ✌🏼
 
 My name is Tonatiuh Núñez.
 

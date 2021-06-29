@@ -32,7 +32,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
 
 <header>
-  <img class="logo" src="{{ "/" | relative_url }}assets/img/works_on_my_local_logo.png"
+  <a class="logo-wrapper" href="{{ "/" | relative_url }}">
+    <img class="logo" src="{{ "/" | relative_url }}assets/img/works_on_my_local_logo.png"
+  </a>
+
   <div class="menu">
     {% include menu.html menu=pages %}
   </div>
