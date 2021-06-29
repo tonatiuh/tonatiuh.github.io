@@ -18,6 +18,8 @@ body
 
 h1, h2, h3, h4, h5, h6
   font-weight: $heading-weight
+  font-family: "Times New Roman", Times, serif
+  color: #68f
 
 b, strong, th
   font-weight: $font-weight + 200
@@ -31,8 +33,12 @@ a
   &:hover
     text-decoration: underline
 
+header nav > a
+  font-weight: bold
+  text-transform: uppercase
+
 header a, footer a, aside a
-  color: inherit
+  color: $link-color
 
 header time
   color: reduce(100)
@@ -86,6 +92,10 @@ pre
   margin: 1.5em 0
   padding: .8em 1.2em
   overflow-x: auto
+
+pre code, code
+  font-family: iosevka-ss09-regular
+  font-size: 14px
 
 \:not(pre) > code
   font-size: .9em

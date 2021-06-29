@@ -1,7 +1,7 @@
 ---
 ---
 
-@import index, basic, layout, classes
+@import index, basic, layout, classes, fonts
 
 html
   background: lighten($dark, 70%)
@@ -11,8 +11,11 @@ body
   box-shadow: 0 0 .3em lighten($dark, 65%)
 
 body > header, body > footer
-  background: lighten($dark, 5%)
+  background: #f2f2f2
   color: $light
+
+body > header .logo
+  width: 50%
 
 @media (min-width: 32em)
   body > header, body > article, body > footer
