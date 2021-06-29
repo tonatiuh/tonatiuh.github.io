@@ -12,7 +12,7 @@ OK, let's talk about the tips.
 
 ## Easier Shortcut for the Terminal
 
-Instead of the default keybinding that VSCode comes with to open the terminal (which is `ctrl+%60`) I prefer to use the `ctrl+,` just because I feel it's easier to reach. You can set up the shortcut this way:
+Instead of the default keybinding that VSCode comes with to open the terminal (which is `` ctrl+` ``), I prefer to use `ctrl+,` just because I feel it's easier to reach. You can set up that shortcut this way:
 
 1. Load the VSCode Command pallet by pressing `CMD + shift + p` if you're on Mac or  `ctrl + shift + p` if you're on Windows or Linux.
 2. Lookup for "Open Keyboard Shortcuts (JSON)" and select it.
@@ -31,11 +31,11 @@ Instead of the default keybinding that VSCode comes with to open the terminal (w
 
 By default, the Tmux bar will show up at the bottom of the screen with a green background color and, in my opinion, with a layout that's not the greatest:
 
-<!-- the image goes here -->
+![Tmux Default Bar]({{"/" | relative_url}}assets/img/tmux_and_vscode/tmux_default_bar.png)
 
 I've built this other Tmux bar layout that I've found easier to work with:
 
-<!-- the image goes here -->
+![Tmux Customized Bar]({{"/" | relative_url}}assets/img/tmux_and_vscode/tmux_customized_bar.png)
 
 You can set yours that way by:
 
@@ -97,7 +97,7 @@ As I've been using Tmux more and more, I've come up with my convention of what T
 
 They'll look pretty much this way:
 
-<!-- image goes here -->
+![Tmux Day-2-Day Setup]({{"/" | relative_url}}assets/img/tmux_and_vscode/tmux_day_2_day.png)
 
 ## Wrapping up
 
