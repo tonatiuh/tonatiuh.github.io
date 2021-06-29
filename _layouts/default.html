@@ -27,6 +27,10 @@
   {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
 {% endif %}
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+
 <header>
   <img class="logo" src="{{ "/" | relative_url }}assets/img/works_on_my_local_logo.png"
   <div class="menu">
