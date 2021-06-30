@@ -20,15 +20,25 @@ navigation: # accepts {file, title, url, icon, sidebaricon}
   - { file: "README.md" }
 
 external: # shows a footer with social links - for available icons see fontawesome.com/icons
+  # - {
+  #     title: Mail,
+  #     icon: envelope,
+  #     url: "mailto:niklasbuschmann@users.noreply.github.com",
+  #   }
   - {
-      title: Mail,
-      icon: envelope,
-      url: "mailto:niklasbuschmann@users.noreply.github.com",
+      title: Twitter,
+      icon: twitter,
+      url: "https://twitter.com/tonatiuh_nunez",
     }
   - {
       title: Github,
       icon: github,
-      url: "https://github.com/niklasbuschmann/contrast",
+      url: "https://github.com/tonatiuh",
+    }
+  - {
+      title: LinkedIn,
+      icon: linkedin,
+      url: "https://www.linkedin.com/in/i-am-tonatiuh-nunez/",
     }
   - { title: Subscribe, icon: rss, url: "/feed.xml" }
 
