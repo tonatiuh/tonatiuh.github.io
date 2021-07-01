@@ -1,6 +1,7 @@
 ---
 title:  "VSCode and Tmux the Perfect Match"
 layout: post
+description: "Tmux is an excellent tool for managing multiple terminal windows and a perfect match to use with the fast VSCode terminal. In this blog post, I'll show you how I set both for an ease development process."
 ---
 
 Tmux is an excellent tool for managing multiple terminal windows and a perfect match to use with the fast VSCode terminal. In this blog post, I'll show you how I set both for an ease development process.

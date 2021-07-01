@@ -27,8 +27,9 @@
   {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
 {% endif %}
 
+<meta property="og:title" content="{{ page.title || 'Works on my local blog.' }} " />
+<meta property="og:description" content="{{ page.description or 'The blog where a dev talks about his journey in the software development.' }}" />
 <meta property="og:image" content="{{ "/" | relative_url }}assets/img/logo_og_image.png">
-
 
 <header>
   <a class="logo-wrapper" href="{{ "/" | relative_url }}">
