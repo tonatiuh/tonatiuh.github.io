@@ -1,7 +1,7 @@
 ---
 title:  "No Excuses, Do the Work"
 layout: post
-description:  Five lessons learnt from the great book Do the work by Steven Pressfield. If you're in the search of increasing productivity then this blog post is for you!
+description:  Five lessons learnt from the great book Do the Work by Steven Pressfield. If you're in the search of increasing productivity then this blog post is for you!
 comments: true
 ---
 
